@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #000000;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #0056b3;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background: url('https://plus.unsplash.com/premium_photo-1675313222284-bb156afd7130?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    color: #0c0c0c;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Contorno blanco para el texto */
+    -webkit-text-stroke: 1px #fff;
+    text-stroke: 1px #fff;
+}
+
+.jumbotron p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    /* Contorno blanco para el texto */
+    -webkit-text-stroke: 1px #fff;
+    text-stroke: 1px #fff;
+}
+
+.jumbotron button {
+    background: #ff9900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.jumbotron button:hover {
+    background: #e68a00;
+}
+
+.carousel {
+    padding: 60px 0;
+    background: #fff;
+}
+
+.carousel h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.carousel-item {
+    flex: 1 0 200px;
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.carousel-controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-controls button {
+    background: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    margin: 0 10px;
+}
+
+.carousel-controls button:hover {
+    background: #003d80;
+}
+
+section {
+    padding: 60px 0;
+    background: #fff;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #000;
+}
+
+.blog-post {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.blog-post h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #0056b3;
+    font-weight: bold;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 10px 0 0;
+}
+
+
